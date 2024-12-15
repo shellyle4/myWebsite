@@ -11342,7 +11342,17 @@ p.lead {
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
+/* Profile image for smaller screens (inside the responsive menu) */
+#navbarResponsive .img-profile {
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  margin: 1rem auto; /* Centers the image and adds spacing */
+  display: block; /* Ensures proper alignment */
+  text-align: center; /* Ensures proper centering */
+}
 
+/* Styles for large screens */
 @media (min-width: 992px) {
   #sideNav {
     padding-left: 0;
